@@ -49,8 +49,8 @@ public class ExercicioRodizio {
 	    }
 		
 		if(meiodetransporte==1) {
-		System.out.println("Olá "+ nome+"("+ setor+")" +"-seu dia de rodízio é: "+ diasemana ) ;
+		System.out.println("Olá "+ nome+"("+setor+")" +"-seu dia de rodízio é: "+ diasemana ) ;
 		}
-		
+		leitor.close();
 		}
 }
